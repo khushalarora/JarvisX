@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { UserData } from "../context/UserContext";
+import { UserData } from "../context/UserContext.jsx";
 import { useNavigate } from "react-router-dom";
-import { LoadingSpinner } from "../components/Loading";
-import { ChatData } from "../context/ChatContext";
+import { LoadingSpinner } from "../components/Loading.jsx";
+import { ChatData } from "../context/ChatContext.jsx";
 
 const Verify = () => {
   const [otp, setOtp] = useState("");

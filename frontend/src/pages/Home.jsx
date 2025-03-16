@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/Sidebar.jsx";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Header from "../components/Header";
-import { ChatData } from "../context/ChatContext";
+import Header from "../components/Header.jsx";
+import { ChatData } from "../context/ChatContext.jsx";
 import { CgProfile } from "react-icons/cg";
 import { FaRobot } from "react-icons/fa";
-import { LoadingBig, LoadingSmall } from "../components/Loading";
+import { LoadingBig, LoadingSmall } from "../components/Loading.jsx";
 import { IoMdSend } from "react-icons/io";
 
 const Home = () => {

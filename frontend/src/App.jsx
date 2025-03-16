@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Verify from "./pages/Verify";
-import { UserData } from "./context/UserContext";
-import { LoadingBig } from "./components/Loading";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import Verify from "./pages/Verify.jsx";
+import { UserData } from "./context/UserContext.jsx";
+import { LoadingBig } from "./components/Loading.jsx";
 
 const App = () => {
   const { user, isAuth, loading } = UserData();

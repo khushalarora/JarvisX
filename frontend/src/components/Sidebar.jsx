@@ -1,8 +1,8 @@
 import { IoIosCloseCircle } from "react-icons/io";
-import { ChatData } from "../context/ChatContext";
+import { ChatData } from "../context/ChatContext.jsx";
 import { MdDelete } from "react-icons/md";
-import { LoadingSpinner } from "./Loading";
-import { UserData } from "../context/UserContext";
+import { LoadingSpinner } from "./Loading.jsx";
+import { UserData } from "../context/UserContext.jsx";
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   const { chats, createChat, createLod, setSelected, deleteChat } = ChatData();

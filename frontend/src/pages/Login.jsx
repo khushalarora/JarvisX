@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { UserData } from "../context/UserContext";
+import { UserData } from "../context/UserContext.jsx";
 import { useNavigate } from "react-router-dom";
-import { LoadingSpinner } from "../components/Loading";
+import { LoadingSpinner } from "../components/Loading.jsx";
 
 const Login = () => {
   const [email, setEmail] = useState("");
